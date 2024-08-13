@@ -8,6 +8,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         println(hesabla())
+        println("Master")
     }
     fun hesabla():Int{
         return 9
